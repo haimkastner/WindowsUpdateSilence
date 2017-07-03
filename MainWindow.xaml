@@ -1,0 +1,39 @@
+﻿<Window x:Class="WindowsUpdateSilence.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsUpdateSilence"
+        mc:Ignorable="d"
+        Title="Mute services" Height="350" Width="525">
+    <Window.DataContext>
+        <local:WindowsUpdateSilenseViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Service name    - שם השירות" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" TextAlignment="Center"  VerticalAlignment="Center"/>
+        <TextBox  Text="{Binding ServiceName}" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" />
+        <Button Content="Disable - השתק" Grid.Row="3" Grid.Column="1" Command="{Binding DisableCommand}" CommandParameter="{Binding ServiceName}"/>
+        <Button Content="Enable - אפשר" Grid.Row="3" Grid.Column="3" Command="{Binding EnableCommand}" CommandParameter="{Binding ServiceName}"/>
+        <Button Content="Stop - עצור" Grid.Row="5" Grid.Column="1" Command="{Binding StopCommand}" CommandParameter="{Binding ServiceName}"/>
+        <Button Content="Start - הפעל" Grid.Row="5" Grid.Column="3" Command="{Binding StartCommand}" CommandParameter="{Binding ServiceName}"/>
+        <Button Content="Service Status - מצב שירות" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"  Command="{Binding StatusCommand}" CommandParameter="{Binding ServiceName}" />
+    </Grid>
+</Window>

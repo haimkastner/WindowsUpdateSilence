@@ -1,0 +1,15 @@
+H:\OneDrive\Projects\WindowsUpdateSilence\bin\Release\WindowsUpdateSilence.exe.config
+H:\OneDrive\Projects\WindowsUpdateSilence\bin\Release\WindowsUpdateSilence.exe
+H:\OneDrive\Projects\WindowsUpdateSilence\bin\Release\WindowsUpdateSilence.pdb
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.csprojResolveAssemblyReference.cache
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\MainWindow.g.cs
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\App.g.cs
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\GeneratedInternalTypeHelper.g.cs
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence_MarkupCompile.cache
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence_MarkupCompile.lref
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\MainWindow.baml
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.g.resources
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.Properties.Resources.resources
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.csproj.GenerateResource.Cache
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.exe
+H:\OneDrive\Projects\WindowsUpdateSilence\obj\Release\WindowsUpdateSilence.pdb
